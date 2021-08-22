@@ -1,1 +1,46 @@
 hello siva
+To install git in redhat
+$ sudo yum install git -y
+
+To check the version and installed are not
+$ git --version
+
+$ git status
+To create a hidden folder
+$ git init
+To create empty file
+$ touch filename
+To edit the file to enter some data
+$ vi filename
+To
+$ git add .filename or $ git add .
+To commit message to all
+$ git commit -m “commit message”
+For particular file to commit
+$ git commit -m “commit message” filename
+
+$ git config --global user.name “user name”
+$ git config --global user.mail “user@gmail.com”
+
+$ ls
+$ ls -al
+$ git config --list
+
+$ git clone url of the github repository
+After this cmd enter ls and you will see github repository name
+
+Enter into the repository
+$ cd repostoryName
+
+Repeat the same steps to create files, add files and commit the files
+$ touch f1 f2 f3
+$ git add .
+$ git commit -m “commit message ” filename or $ git commit -m “commit message” .
+$ git push
+After entering the command it will ask github user logins
+
+Username for 'https://github.com': mattaparthidevakumar
+Password for 'https://mattaparthidevakumar@github.com': ************
+
+
+
